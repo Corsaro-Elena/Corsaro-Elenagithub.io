@@ -14,7 +14,7 @@ body {
     font-weight: bold;
     border: 3px solid #000000;
     position: absolute;
-    top: 39%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -26,7 +26,11 @@ body {
 }
 
 .hr {
-  margin-top: 115px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-color: rgba(24, 11, 11, 0.719);
+
  
 }
 
