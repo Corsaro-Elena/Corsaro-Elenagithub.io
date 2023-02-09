@@ -21,8 +21,7 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    border-style: outset;
-    
+    border-style: outset; 
 }
 
 .hr {
@@ -30,19 +29,9 @@ body {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-color: rgba(24, 11, 11, 0.719);
-
- 
-}
-
-img {
-    font-size:larger;
 }
 
 .top {
-    border-radius: 100px;
-}
-
-.bottom {
     border-radius: 100px;
 }
 
@@ -50,13 +39,13 @@ img {
     display: flex;
     justify-content: space-around;
     position: relative;
-    animation: animation 3s ease-out infinite alternate;
-  }
+    animation: animation 4s ease-out infinite alternate;
+}
 
 #slide-in {
     text-align: center;
     color: #fff;
-  }
+}
 
 @keyframes animation {
     0% {
@@ -102,7 +91,7 @@ div.fading {
     display: flex;
     justify-content: center;
     animation: FadeInOut 4s infinite alternate;
- }
+}
 
 @keyframes FadeInOut {
     0% {opacity:1;}
@@ -126,7 +115,7 @@ div.fading {
     90% {opacity:.1;}
     95% {opacity: 0.15;}
     100% {opacity: 0;}
-  }
+}
 
 .center-box2 {
     display: flex;
@@ -205,7 +194,7 @@ div.fading {
   animation: color-change 3.5s linear 2s infinite alternate;
 }
   
-  @keyframes color-change {
+@keyframes color-change {
     0%   {color:rgb(255, 0, 0);}
     25%  {color:rgb(255, 238, 0);}
     50%  {color:rgb(0, 255, 60)}
