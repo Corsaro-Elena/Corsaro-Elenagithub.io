@@ -1,0 +1,38 @@
+.flexxx{
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.welcome {
+    color:red;
+    font-family: cursive;
+}
+.bighead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    border-radius: 20px;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: blueviolet;
+
+}
+
+body {
+    background-color: brown;
+}
